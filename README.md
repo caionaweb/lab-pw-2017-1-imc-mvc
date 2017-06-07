@@ -6,7 +6,7 @@ Laboratório da turma de Programação para Web.
 
 ### Para fazer clone.
 
-`git clone https://github.com/caionaweb/lab-pw-2017-1-imc-mvc'
+`git clone https://github.com/caionaweb/lab-pw-2017-1-imc-mvc`
 
 ### Para rodar com o Tomcat na porta 9090.
 
