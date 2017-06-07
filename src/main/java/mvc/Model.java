@@ -13,6 +13,10 @@ public class Model {
 	public String resultado() {
 		String imcF = String.format("%.2f", imc);
 		
+		if (Float.isNaN(imc)) {
+			return "";
+		}
+		
 		if (sexo == "f") {
 			if (imc < 19.1) {
 				return "<div class='card-panel red white-text'>IMC: " + imcF
@@ -36,5 +40,6 @@ public class Model {
 						+ " <br><b>Atenção!</b> Você está marginalmente acima do peso.</div>";
 			}
 		}
+
 	}
 }
